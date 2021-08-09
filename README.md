@@ -1,4 +1,4 @@
-# WebPagetest Newsletter
+# WebPageTest Newsletter
 
 Web page performance test report every week in your inbox: [Web Site](https://www.webpagetestnewsletter.com/)
 
