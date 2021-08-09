@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-5GF3326');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="WebPageTest Newsletter">
+    <meta name="description" content="Web page performance test report every week in your inbox. Measure, Monitor and Improve.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="WebPageTest Newsletter - Web page performance test report every week in your inbox">
+    <meta property="og:description" content="Web page performance test report every week in your inbox.">
+    <meta property="og:image" content="https://webpagetestnewsletter.com/assets/img/webpagetest-newsletter.png">
+    <meta property="og:image:alt" content="WebPageTest Newsletter">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://webpagetestnewsletter.com/">
+
+    <!-- TWITTER CARD -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@wptnewsletter" />
+    <meta name="twitter:title" content="WebPageTest Newsletter" />
+    <meta name="twitter:description" content="Web page performance test report every week in your inbox. Measure, Monitor and Improve." />
+    <meta name="twitter:image" content="https://webpagetestnewsletter.com/assets/img/webpagetest-newsletter.png" />
+
+    <!-- SPEED -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+
+    <!-- LINK -->
+    <link rel="icon" href="{{ '/' | url }}favicon.ico">
+    <link rel="apple-touch-icon" href="{{ '/' | url }}apple-touch-icon.png">
+
+    <!-- PERFORMANCE -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+    <link rel="preload" as="style" href="{{ '/' | url }}style.css?20210613">
+    <link rel="stylesheet" href="{{ '/' | url }}style.css?20210613">
+
+    <!-- TITLE -->
+    <title>{{ title }}</title>
+  </head>
+  <body>
+  <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5GF3326"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+    <header role="banner" class="ui-section-header">
+      <div class="ui-layout-container">
+        <div class="ui-section-header__layout ui-layout-flex">
+          <!-- LOGO -->
+          <a href="https://webpagetestnewsletter.com/" role="link" aria-label="#" class="ui-section-header--logo">
+            <img src="{{ '/' | url }}assets/img/webpagetest-newsletter-logo.png" alt="#" class="">
+          </a>
+          <!-- HAMBURGER -->
+          <input type="checkbox" id="ui-section-header--menu-id">
+          <label for="ui-section-header--menu-id" class="ui-section-header--menu-icon"></label>
+          <!-- MENU -->
+          <nav role="navigation" class="ui-section-header--nav ui-layout-flex">
+            <a href="{{ '/' | url }}#Subscribe" role="link" aria-label="Subscribe" class="ui-section-header--nav-link">Subscribe</a>
+            <a href="#About" role="link" aria-label="About" class="ui-section-header--nav-link">About</a>
+            <a href="#Featured" role="link" aria-label="Featured" class="ui-section-header--nav-link">Featured</a>
+            <a href="#Report" role="link" aria-label="Featured" class="ui-section-header--nav-link">Report</a>
+            <a href="#Contact" role="link" aria-label="Contact" class="ui-section-header--nav-link">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main role="main">
+      <section class="ui-section-hero">
+        <div class="ui-layout-container">
+          <div class="ui-section-hero__layout ui-layout-grid ui-layout-grid-2">
+            <!-- COPYWRITING -->
+            <div>
+              <h1><span style="font-size: 2.4rem; color: #fff;">WebPageTest</span> <span style="font-size: 3.10rem;">Newsletter</span></h1>
+              <p class="ui-text-intro">Web page performance test report every week in your inbox.</p>
+			  <p class="ui-text-intro">Get a Personalized Report on the Status of the Ecommerce or Website that you want to monitor in terms of Web performance and Web optimization, <strong>Core Web Vitals</strong> are included.</p>
+              <!-- CTA -->
+              <div class="ui-component-cta ui-layout-flex">
+                <a href="{{ '/' | url }}#Subscribe" role="link" aria-label="#" class="ui-component-button ui-component-button-normal ui-component-button-primary">Subscribe Free</a>
+                <p class="ui-text-note"><small>Measure, Monitor and Improve...</small></p>
+              </div>
+            </div>
+            <!-- IMAGE -->
+            <img src="{{ '/' | url }}assets/img/webpagetest-newsletter-hero-image.png" alt="WebPageTest Newsletter Inbox" class="ui-image-half-right">
+          </div>
+        </div>
+      </section>
+      <section class="ui-section-title">
+        <div class="ui-layout-container">
+          <h2>Subscribe</h2><a name="Subscribe"></a>
+        </div>
+      </section>
+      <section class="ui-section-subscribe">
+        <div class="ui-layout-container">
+          {% block pagemaincontent %}
+            content
+          {% endblock %}
+        </div>
+      </section>
+      <section class="ui-section-title">
+        <div class="ui-layout-container">
+          <h2>About</h2><a name="About"></a>
+        </div>
+      </section>
+      <section class="ui-section-about">
+        <div class="ui-layout-container">
+          <p class="ui-text-intro">WebPageTest Newsletter is a free Web application to monitor the Web Performance of web pages in an automated way through the delivery of a weekly report (Core Web Vitals metrics included) to its Subscribers.</p>
+          <p class="ui-text-intro">The report delivered is generated using one of the best web optimization tools on the market such as Webpagetest.org.</p>
+        </div>
+      </section>
+      <section class="ui-section-title">
+        <div class="ui-layout-container">
+          <h2>Featured Users</h2><a name="Featured"></a>
+        </div>
+      </section>
+      <section class="ui-section-customer">
+        <div class="ui-layout-container">
+          <div class="ui-section-customer__layout ui-layout-flex">
+            <a href="https://digital-loop.com/?utm_source=webpagetestnewsletter&utm_medium=website&utm_campaign=featured" target="_blank"><img src="{{ '/' | url }}assets/img/users/digital-loop-logo.png" loading="lazy" alt="digital-loop.com" width="160px" height="85px" class="ui-section-customer--logo"></a>
+            <a href="https://www.happy-belly-yoga.de/?utm_source=webpagetestnewsletter&utm_medium=website&utm_campaign=featured" target="_blank"><img src="{{ '/' | url }}assets/img/users/happy-belly-yoga-logo.png" loading="lazy" alt="Happy Belly Yoga" width="138px" height="85px" class="ui-section-customer--logo"></a>
+            <a href="https://www.hemden.de/?utm_source=webpagetestnewsletter&utm_medium=website&utm_campaign=featured" target="_blank"><img src="{{ '/' | url }}assets/img/users/hemden-de-logo.png" loading="lazy" alt="hemden.de" width="160px" height="85px" class="ui-section-customer--logo"></a>
+            <a href="https://nurfit.de/?utm_source=webpagetestnewsletter&utm_medium=website&utm_campaign=featured" target="_blank"><img src="{{ '/' | url }}assets/img/users/nur-fit-logo.png" loading="lazy" alt="nurfit.de" width="160px" height="85px" class="ui-section-customer--logo"></a>
+          </div>
+          <div style="padding-top: 3rem;" class="ui-section-customer__layout ui-layout-flex">
+            <a href="https://judyplan.de/?utm_source=webpagetestnewsletter&utm_medium=website&utm_campaign=featured" target="_blank"><img src="{{ '/' | url }}assets/img/users/judy-gram-logo-black.png" loading="lazy" alt="judyplan.de" width="160px" height="85px" class="ui-section-customer--logo"></a>
+            <a href="https://www.pixeden.com/?utm_source=webpagetestnewsletter&utm_medium=website&utm_campaign=featured" target="_blank"><img src="{{ '/' | url }}assets/img/users/pixeden-logo.png" loading="lazy" alt="pixeden.com" width="160px" height="85px" class="ui-section-customer--logo"></a>
+			      <a href="https://orioniconlibrary.com/?utm_source=webpagetestnewsletter&utm_medium=website&utm_campaign=featured" target="_blank"><img src="{{ '/' | url }}assets/img/users/orion-logo.png" loading="lazy" alt="orioniconlibrary.com" width="160px" height="85px" class="ui-section-customer--logo"></a>
+			      <a href="https://www.myrasecurity.com/de/?utm_source=webpagetestnewsletter&utm_medium=website&utm_campaign=featured" target="_blank"><img src="{{ '/' | url }}assets/img/users/myra-security-logo.png" loading="lazy" alt="myrasecurity.com" width="160px" height="80px" class="ui-section-customer--logo"></a>
+          </div>
+        </div>
+      </section>
+      <section class="ui-section-title">
+        <div class="ui-layout-container">
+          <h2>Web Performance Report</h2><a name="Report"></a>
+        </div>
+      </section>
+      <section class="ui-section-report">
+        <div class="ui-layout-container">
+          <div class="ui-section-report__layout ui-layout-grid ui-layout-grid-2">
+            <!-- COPYWRITING -->
+            <div>
+              <h2>Web page test details.</h2>
+              <p class="ui-text-intro">Url page. Test location. Test Id. View third-party assets requests on the page.</p>
+            </div>
+            <!-- IMAGE -->
+            <img src="{{ '/' | url }}assets/img/report/webpagetest-newsletter-email-report-web-page-details.png" loading="lazy" alt="Web page test details" class="ui-image-half-right">
+          </div>
+        </div>
+        <div class="ui-layout-container">
+          <div class="ui-section-report__layout ui-layout-grid ui-layout-grid-2">
+            <!-- IMAGE -->
+            <img src="{{ '/' | url }}assets/img/report/webpagetest-newsletter-email-report-optimization-scores.png" loading="lazy" alt="Optimization Scores" class="ui-image-half-right ui-section-report--capture-scores">
+            <!-- COPYWRITING -->
+            <div class="ui-section-report--capture-content">
+              <h2>Web Optimization Scores.</h2>
+              <p class="ui-text-intro">Grades for the most critical performance optimizations.</p>
+            </div>
+          </div>
+        </div>
+        <div class="ui-layout-container">
+          <div class="ui-section-report__layout ui-layout-grid ui-layout-grid-2">
+            <!-- COPYWRITING -->
+            <div class="ui-section-report--capture-content">
+              <h2>Core Web Vitals.</h2>
+              <p class="ui-text-intro">UX Metrics for loading, visual stability, and interactivity.</p>
+            </div>
+            <!-- IMAGE -->
+            <img src="{{ '/' | url }}assets/img/report/webpagetest-newsletter-email-report-core-web-vitals.png" loading="lazy" alt="Core Web Vitals" class="ui-image-half-right">
+          </div>
+        </div>
+        <div class="ui-layout-container">
+          <div class="ui-section-report__layout ui-layout-grid ui-layout-grid-2">
+            <!-- IMAGE -->
+            <img src="{{ '/' | url }}assets/img/report/webpagetest-newsletter-email-report-performance-results.png" loading="lazy" alt="Performance Results" class="ui-image-half-left ui-section-report--capture-results">
+            <!-- COPYWRITING -->
+            <div class="ui-section-report--capture-content">
+              <h2>Web Performance Results.</h2>
+              <p class="ui-text-intro">High-level metrics information about the page that was tested.</p>
+            </div>
+          </div>
+        </div>
+        <div class="ui-layout-container">
+          <div class="ui-section-report__layout ui-layout-grid ui-layout-grid-2">
+            <!-- COPYWRITING -->
+            <div class="ui-section-report--capture-content">
+              <h2>Content Breakdown.</h2>
+              <p class="ui-text-intro">Website content breakdown by MIME type.</p>
+            </div>
+            <!-- IMAGE -->
+            <img src="{{ '/' | url }}assets/img/report/webpagetest-newsletter-email-report-content-breakdown.png" loading="lazy" alt="Content Breakdown" class="ui-image-half-right">
+          </div>
+        </div>
+      </section>
+      <section class="ui-section-title">
+        <div class="ui-layout-container">
+          <h2>Contact</h2><a name="Contact"></a>
+        </div>
+      </section>
+      <section class="ui-section-close">
+        <div class="ui-layout-container">
+          <p>Get Connected: <a href="mailto: info@webpagetestnewsletter.com">info@webpagetestnewsletter.com</a></p>
+		  <p><a href="https://www.producthunt.com/posts/webpagetest-newsletter?utm_source=badge-review&utm_medium=badge&utm_souce=badge-webpagetest-newsletter#discussion-body" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/review.svg?post_id=297274&theme=light" alt="WebPageTest Newsletter - Web page performance test every week in your inbox.  | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a></p>
+          <address>
+            <strong>WebPageTest Newsletter</strong><br>
+            81477 Munich, Germany
+            <br>
+            <small>(beta version)</small>
+          </address>
+        </div>
+      </section>
+    </main>
+    <footer role="contentinfo" class="ui-section-footer">
+      <div class="ui-layout-container">
+        <div class="ui-section-footer__layout ui-layout-flex">
+          <!-- COPYRIGHT -->
+          <p class="ui-section-footer--copyright ui-text-note"><small>&copy; WebPageTest Newsletter</small></p>
+          <!-- MENU -->
+          <a href="https://www.facebook.com/webpagetestnewsletter" role="link" aria-label="#" class="ui-component--social-media">
+            <image alt="facebook" width="36" height="36" src="{{ '/' | url }}assets/img/Orion_facebook.svg" />
+          </a>
+          <a href="https://twitter.com/wptnewsletter" role="link" aria-label="#" class="ui-component--social-media">
+            <image alt="twitter" width="36" height="36" src="{{ '/' | url }}assets/img/Orion_twitter.svg" />
+          </a>
+          <a href="https://www.linkedin.com/in/edwinmolinahernandez/" role="link" aria-label="#" class="ui-component--social-media">
+            <image alt="linkedin" width="36" height="36" src="{{ '/' | url }}assets/img/Orion_linkedin.svg" />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
