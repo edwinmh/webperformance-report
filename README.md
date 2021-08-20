@@ -1,6 +1,6 @@
-# WebPageTest Newsletter
+# WebPageTest Newsletter Static Website
 
-Web page performance test report every week in your inbox: [Web Site](https://www.webpagetestnewsletter.com/)
+Web page performance test report every week in your inbox: [Website](https://www.webpagetestnewsletter.com/)
 
 ## Getting Started
 
