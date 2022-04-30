@@ -61,7 +61,7 @@
     <!-- TITLE -->
     <title>{{ title }}</title>
   </head>
-  <body>
+  <body class="{{ pageClass }}">
     <header role="banner" class="ui-section-header">
       <div class="ui-layout-container">
         <div class="ui-section-header__layout ui-layout-flex">
@@ -105,7 +105,7 @@
       </section>
       <section class="ui-section-title">
         <div class="ui-layout-container">
-          <h2>Subscribe</h2><a name="Subscribe"></a>
+          <h2>{{ mainTitle }}</h2><a name="Subscribe"></a>
         </div>
       </section>
       <section class="ui-section-subscribe">
@@ -230,7 +230,7 @@
       <div class="ui-layout-container">
         <div class="ui-section-footer__layout ui-layout-flex">
           <!-- COPYRIGHT -->
-          <p class="ui-section-footer--copyright ui-text-note"><small>&copy; WebPerformance Report</small></p>
+          <p class="ui-section-footer--copyright ui-text-note"><small>&copy; WebPerformance Report | <a href="{{ '/' | url }}privacy-policiy/" alt="privacy policy">Privacy policy</a></small></p>
           <!-- MENU -->
           <a href="https://www.facebook.com/WebPerformanceReport" role="link" aria-label="#" class="ui-component--social-media">
             <image alt="facebook" width="36" height="36" loading="lazy" src="{{ '/' | url }}assets/img/Orion_facebook.svg" />

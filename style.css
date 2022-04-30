@@ -164,6 +164,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+body.page--privacy-policy .cookie-consent-wrap {
+  text-align: left;
+}
+
 /*--------------------------------------------------------------
 3.0 TYPOGRAPHY
 --------------------------------------------------------------*/
@@ -747,6 +751,11 @@ div label[for=ui-component-toggle__yearly] {
 .ui-section-footer--copyright {
   margin-bottom: 0;
   margin-right: auto;
+}
+
+.ui-section-footer a {
+  color:#ddd;
+  text-decoration: none;
 }
 
 /* .ui-component--social-media { padding: 0 0.3rem; }*/
