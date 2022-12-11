@@ -13,7 +13,7 @@ git clone https://github.com/edwinmh/webperformance-report
 ### 2. Navigate to the directory
 
 ```
-cd webpagetest-newsletter
+cd webperformance-report
 ```
 
 ### 3. Install dependencies
