@@ -520,6 +520,10 @@ div label[for=ui-component-toggle__yearly] {
   
 .ui-section-customer--logo-bhn { height: 1.375rem; }
 
+.ui-section-customer .ui-text-intro {
+  color: var(--ui-color-typography-body);
+}
+
 /*--------------------------------------------------------------
 |
 | 7.X.1 TITLE
@@ -1130,6 +1134,11 @@ div label[for=ui-component-toggle__yearly] {
   .ui-text-intro {
     font-size: var(--ui-typography-note);
     color: var(--ui-color-typography-button);
+  }
+
+  .ui-section-customer .ui-text-intro {
+    color: var(--ui-color-typography-body);
+    text-align: center;
   }
 
   /*------------------------------------------------------------
