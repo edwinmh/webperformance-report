@@ -36,14 +36,6 @@
     <meta name="twitter:image" content="https://webperformancereport.com/assets/img/webperformance-report.png" />
 
     <!-- SPEED -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://104c0af5.sibforms.com">
-    <link rel="dns-prefetch" href="https://104c0af5.sibforms.com">
-    <link rel="preconnect" href="https://sibforms.com">
-    <link rel="dns-prefetch" href="https://sibforms.com">
 
     <!-- LINK -->
     <link rel="icon" href="/favicon.ico">
@@ -51,12 +43,29 @@
 
     <!-- PERFORMANCE -->
     <link rel="preload" as="image" href="/assets/img/webperformance-report-hero-image.png">
-    <link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_fvQtMwCp50.woff2">
-    <link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/inter/v7/UcCO3FwrK3iLTeHuS_F_QtMwCp50.woff2">
 
-    <noscript>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
-    </noscript>
+    <style>
+    /* inter-regular - latin */
+    @font-face {
+      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      src: url('fonts/inter-v12-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+          url('fonts/inter-v12-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
+
+    /* inter-700 - latin */
+    @font-face {
+      font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      src: url('fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+          url('fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
+    </style>
+
     <link rel="preload" as="style" href="/style.css?20210613">
     <link rel="stylesheet" href="/style.css?20210613">
 
@@ -143,7 +152,7 @@
   // Listen for the window 'load' event
   window.addEventListener('load', function () {
     // Call the loadIframe function after a delay (e.g., 500ms)
-    setTimeout(loadIframe, 500);
+    setTimeout(loadIframe, 1000);
   });
 </script>
 
