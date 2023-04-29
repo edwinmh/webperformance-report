@@ -1,1 +1,32 @@
-<iframe id="wn-sendinblue" title="WebPerformance Report Subscription" loading="lazy" width="100%" height="1000px" src="https://104c0af5.sibforms.com/serve/MUIEAGRV8mOQ0q_xoXZvNS7UENq2x3rsrM3DFBuzINxbtVo22HD1-vsI1O_3B8vy7oFqMJtVTlpQsb3SVA2QIDPbcXsh4SbhsSKWmcc7QVKWiZdgnx_OyTwehYD6gswP-5DtKi4tR5_ylm18xB0JsCYaIAs6ZQcl1fO9aF5Q76UwlL_wTyAi1iWxwFMhHJk6fCoJmIF3SdPqk9uV" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
+<div id="iframe-placeholder"></div>
+<script>
+  // Function to create and insert the iframe
+  function loadIframe() {
+    // Check if the iframe already exists
+    if (document.getElementById('wn-sendinblue')) {
+      return; // If the iframe exists, exit the function
+    }
+
+    // Create the iframe element
+    var iframe = document.createElement('iframe');
+
+    // Set the iframe attributes (src, width, height, id, etc.)
+    iframe.src = 'https://104c0af5.sibforms.com/serve/MUIEAGRV8mOQ0q_xoXZvNS7UENq2x3rsrM3DFBuzINxbtVo22HD1-vsI1O_3B8vy7oFqMJtVTlpQsb3SVA2QIDPbcXsh4SbhsSKWmcc7QVKWiZdgnx_OyTwehYD6gswP-5DtKi4tR5_ylm18xB0JsCYaIAs6ZQcl1fO9aF5Q76UwlL_wTyAi1iWxwFMhHJk6fCoJmIF3SdPqk9uV';
+    iframe.width = '100%';
+    iframe.height = '1000';
+    iframe.style = 'display: block;margin-left: auto;margin-right: auto;max-width: 100%; border: 0;';
+    iframe.frameborder = '0';
+    iframe.scrolling = 'auto';
+    iframe.id = 'wn-sendinblue';
+    // Add any other required attributes
+
+    // Append the iframe to the placeholder element
+    document.getElementById('iframe-placeholder').appendChild(iframe);
+  }
+
+  // Listen for the window 'load' event
+  window.addEventListener('load', function () {
+    // Call the loadIframe function after a delay (e.g., 500ms)
+    setTimeout(loadIframe, 500);
+  });
+</script>
