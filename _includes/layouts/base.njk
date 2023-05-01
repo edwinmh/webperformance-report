@@ -58,6 +58,18 @@
 
     <!-- TITLE -->
     <title>{{ title }}</title>
+    
+    <script>
+      // Check if the service worker is supported by the browser
+      if ('serviceWorker' in navigator) {
+        // Register the service worker
+        navigator.serviceWorker.register('/sw.js').then(function (registration) {
+          console.log('Service worker registered: ', registration);
+        }).catch(function (error) {
+          console.error('Service worker registration failed: ', error);
+        });
+      }
+    </script>
   </head>
   <body class="{{ pageClass }}">
     <header role="banner" class="ui-section-header">
