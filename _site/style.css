@@ -608,13 +608,13 @@ div label[for=ui-component-toggle__yearly] {
 --------------------------------------------------------------*/
 
 .ui-section-about {
-  background-color: var(--ui-color-background-primary);
+  background-color: var(--ui-color-background-subscribe);
   padding-bottom: 2rem;
   padding-top: 2rem;
   text-align: center;
 }
 
-.ui-section-about p { color: #fff; }
+.ui-section-about p { color: #000; }
 
 .ui-section-about--quote {
   margin-bottom: 1rem;
