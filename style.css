@@ -608,7 +608,7 @@ div label[for=ui-component-toggle__yearly] {
 --------------------------------------------------------------*/
 
 .ui-section-about {
-  background-color: var(--ui-color-background-subscribe);
+  background-color: var(--ui-color-background-subscribe) !important;
   padding-bottom: 2rem;
   padding-top: 2rem;
   text-align: center;
